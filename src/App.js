@@ -83,11 +83,7 @@ const App = observer(() => {
       </div>
       </div>
 
-      {console.log(typeof calculator.totalCostPerHour() == "number")}
-      {console.log(calculator.totalCostPerHour() != NaN)}
-      {console.log(calculator.totalCostPerHour() != Infinity)}
-      {console.log(calculator.totalCostPerHour())}
-      
+  
 
         <div className="item item_5">Стоимость часа: {typeof calculator.totalCostPerHour() == "number" && !isNaN(calculator.totalCostPerHour()) &&
          calculator.totalCostPerHour() != Infinity ? calculator.totalCostPerHour() : "Некорректные данные"}</div>
